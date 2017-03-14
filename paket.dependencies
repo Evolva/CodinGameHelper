@@ -1,7 +1,13 @@
 framework: net452
 source https://www.nuget.org/api/v2
-nuget CommandLineParser
-nuget Microsoft.CodeAnalysis.CSharp
-nuget MoreLINQ
-nuget NFluent
-nuget Nunit
+	nuget CommandLineParser
+	nuget Microsoft.CodeAnalysis.CSharp
+	nuget MoreLINQ
+	nuget NFluent
+	nuget Nunit
+
+
+group Build
+source https://www.nuget.org/api/v2
+	nuget FAKE
+	nuget ILMerge

@@ -17,8 +17,8 @@ namespace SourcesMerger
 
         public Encoding Encoding => EncodingEnum.ToEncoding();
 
-        //[Option('w', "watch", Required = false, DefaultValue = false, HelpText = "enable watch")]
-        //public bool Watch { get; set; }
+        [Option('w', "watch", Required = false, DefaultValue = false, HelpText = "enable watch")]
+        public bool Watch { get; set; }
     }
 
 }
