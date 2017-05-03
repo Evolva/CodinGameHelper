@@ -15,3 +15,12 @@ SourcesMerger --help
 ```
 
 Can be used as a post-build event in Visual Studio or as a watcher
+
+## Algorithms
+
+### PathFinding
+- [A*](https://github.com/Evolva/CodinGameHelper/tree/master/CodinGameHelper/Algorithms/PathFinding/AStar) depends on PriorityQueue
+
+
+## Datastructures
+- [PriorityQueue](https://github.com/Evolva/CodinGameHelper/blob/master/CodinGameHelper/Datastructures/PriorityQueue.cs)
