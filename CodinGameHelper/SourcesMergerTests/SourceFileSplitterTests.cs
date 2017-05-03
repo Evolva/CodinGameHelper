@@ -8,7 +8,7 @@ namespace SourcesMergerTests
     public class SourceFileSplitterTests
     {
         [Test]
-        public void Can_Extract_Using_Directives_From_Source_Code()
+        public void Must_Extract_Using_Directives_From_Source_Code_When_Calling_UsingDirectiveSyntaxNodes()
         {
             const string expected =
 @"using NUnit.Framework;
@@ -19,7 +19,7 @@ using NFluent;
         }
 
         [Test]
-        public void Can_Extract_Remove_Using_Directives_From_Source_Code()
+        public void Must_Remove_Using_Directives_From_Source_Code_When_Calling_CodeWithoutUsingDirectives()
         {
             const string expected =
 @"
